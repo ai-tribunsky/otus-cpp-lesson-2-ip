@@ -7,7 +7,6 @@
     "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "all",
-
     // Files
     "files.autoSaveDelay": 1000,
     "files.associations": {
@@ -104,7 +103,12 @@
         "dbccodeconf.h": "c",
         "filesystem": "cpp",
         "flipdb-config.h": "c",
-        "__functional_03": "cpp"
+        "__functional_03": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "numbers": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp"
     },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -113,7 +117,6 @@
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
     },
-
     "search.exclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
@@ -121,7 +124,6 @@
         "**/install": true,
         "**/log": true
     },
-
     // C++
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.default.cppStandard": "c++17",
